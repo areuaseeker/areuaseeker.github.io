@@ -1,17 +1,19 @@
-* {
-  margin:0px;
-  padding:0px;
-}
+h2 {color: white;
+	background-color: lightblue;
+	}
 
-#octocat {
-  display: block;
-  width:384px;
-  margin: 50px auto;
-}
-
-p {
-  display: block;
-  width: 400px;
-  margin: 50px auto;
-  font: 30px Monaco,"Courier New","DejaVu Sans Mono","Bitstream Vera Sans Mono",monospace;
-}
+label{
+		display: inline-block;
+		float: left;
+		clear: left;
+		width: 150px;
+		text-align: left;
+	}
+input {
+	  display: inline-block;
+	  float: left;
+	}
+select{
+	  display: inline-block;
+	  float: left;
+	}
